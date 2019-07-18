@@ -3,6 +3,6 @@ FROM python:3.7-alpine
 RUN apk add --no-cache gcc musl-dev libffi-dev openssl-dev make git openssh
 
 # hadolint ignore=DL3013
-RUN pip install jmespath docker boto3 botocore
+RUN pip install jmespath docker boto3 botocore netaddr
 
-RUN pip install ansible==2.7
+RUN pip install ansible==2.8
