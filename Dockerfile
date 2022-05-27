@@ -8,4 +8,4 @@ RUN pip install jmespath docker boto3 botocore netaddr
 
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 
-RUN pip install ansible==4.0.0
+RUN pip install ansible==5.8.0
